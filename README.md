@@ -1,7 +1,7 @@
 Brackets Theme: PH easy dark
 ===
 
-This theme is the more easy and more flat version of [JetBrains WebStorm theme](https://github.com/AlbertoDorado/darcula-for-brackets).
+This theme is the more easy and more minimal version of [JetBrains WebStorm theme](https://github.com/AlbertoDorado/darcula-for-brackets).
 
 Screenshots
 ---
