@@ -1,0 +1,136 @@
+/* Defines */
+@background: #2b2e2f;
+@foreground: #b2bcc1;
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #1e2021;
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: #1e2021;
+        color: #cbcbcb;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;    
+    }
+}
+
+.cm-def {color: @foreground;}
+.cm-hr {color: #a9daff;}
+.cm-string, .cm-string-2 {color:#798970;}
+.cm-number, .cm-plus, .cm-atom {color: #6897BB;}
+.cm-variable-2, .cm-variable-3, .cm-property {color: #bfbf6f;}
+.cm-variable, .cm-attribute {color: @foreground;}
+.cm-operator, .cm-meta, .cm-bracket {color: @foreground;}
+.cm-comment {color: #808080;}
+.cm-minus {color: #dc322f;}
+.cm-error {text-decoration: underline; text-decoration-color: red;}
+.cm-header {color: #d85896;}
+.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-rangeinfo {color: #6c71c4;}
+.cm-qualifier, .cm-builtin, .cm-quote, .cm-tag {color: #d9b466;}
+.cm-keyword {color: #CC7832;}
+
+.cm-m-css.cm-property {color: #AE8ABE; }
+.cm-m-css.cm-atom {color: #6897BB; }
+.cm-m-xml.cm-string {color: #a3b47c; }
+
+/* Extra CSS */
+
+.CodeMirror-searching {
+    background-color: #d3cd69;
+    &.searching-current-match {
+        background-color: #f6a644;
+    }
+}
+
+
+.CodeMirror-cursor {
+    border-left: 1px solid #c5c8c6 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: #767676;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #131719;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #131719;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: @background;
+    color:#ddd254 !important;
+    font-weight: bold !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+.CodeMirror {
+    .CodeMirror {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-gutters {
+        background: transparent;
+        border-right: none;
+    }
+
+    .CodeMirror .CodeMirror-activeline-background {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+        background: transparent;
+        color: #767676;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline-background {
+        background: #4e4e4e;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            background: rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+    }
+}
+
+/* Non-editor styling */
+
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}

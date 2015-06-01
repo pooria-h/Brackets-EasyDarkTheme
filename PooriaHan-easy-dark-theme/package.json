@@ -1,0 +1,15 @@
+{
+	"title": "PH easy dark",
+    "name": "PooriaHan-easy-dark-theme",
+    "description": "A dark theme easy for eyes.",
+    "homepage": "https://github.com/Pooria-H",
+    "version": "1.0.0",
+    "author": "Pooria Han <poooriah@gmail.com> (http://pooriahan.name)",
+    "license": "MIT",
+    "theme": {
+        "file": "main.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme"]
+}
