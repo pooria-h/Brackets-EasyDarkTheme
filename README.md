@@ -1,7 +1,7 @@
 Brackets Theme: PH easy dark
 ===
 
-This theme is the more easy and more minimal version of [JetBrains WebStorm theme](https://github.com/AlbertoDorado/darcula-for-brackets).
+This theme is the more easy and more minimal version of [JetBrains WebStorm darcula theme](https://github.com/AlbertoDorado/darcula-for-brackets).
 
 Screenshots
 ---
@@ -23,7 +23,7 @@ This extension requires Brackets Release 1.1 or newer.
 1. Open Brackets
 2. Open the Extension Manager
 3. Switch to "Themes" tab
-4. Search for "Darcula"
+4. Search for "PH easy dark"
 5. Click "Install"
 
 License
